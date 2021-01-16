@@ -475,6 +475,9 @@ a {
 }
 
 @media screen and (max-width: 902px) {
+  h3 {
+    font-size: 3.5rem;
+  }
   .nav-links {
     display: none;
   }
@@ -497,6 +500,22 @@ a {
     text-align: center;
     padding-right: 0rem;
     padding: 3rem;
+  }
+  .container .card {
+    width: 28rem;
+    height: 36rem;
+  }
+  .container .card h4 {
+    font-size: 2.5rem;
+  }
+  .container .card p {
+    font-size: 1.6rem;
+  }
+  .about-text {
+    margin-bottom: 2rem;
+  }
+  .about-text p {
+    line-height: 3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

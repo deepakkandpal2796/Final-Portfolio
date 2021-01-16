@@ -1,27 +1,52 @@
-@media screen and (max-width: 902px){
-        .nav-links{
-            display: none;
-        }
-        .hero{
-            .hero-text{
-                text-align: center;
-                svg{
-                    width: 25rem;
-                }
-                h4{
-                    font-size: 2.4rem;
-                }
-                a{
-                    font-size:2rem
-                }
-            }
-            .hero-image{
-                text-align: center;
-            }
-        }
-        .about-text{
-            text-align: center;
-            padding-right: 0rem;
-            padding: 3rem;
-        }
+@media screen and (max-width: 902px) {
+    h3{
+        font-size: 3.5rem;
+    }
+  .nav-links {
+    display: none;
+  }
+  .hero {
+    .hero-text {
+      text-align: center;
+      svg {
+        width: 25rem;
+      }
+      h4 {
+        font-size: 2.4rem;
+      }
+      a {
+        font-size: 2rem;
+      }
+    }
+    .hero-image {
+      text-align: center;
+    }
+  }
+  .about-text {
+    text-align: center;
+    padding-right: 0rem;
+    padding: 3rem;
+  }
+  .container {
+    .card {
+      width: 28rem;
+      height: 36rem;
+      h4{
+          font-size: 2.5rem;
+      }
+      p{
+          font-size: 1.6rem;
+      }
+//       img{
+// width: 2rem;
+//       }
+    }
+  }
+  .about-text{
+    p{
+        line-height: 3rem;
+    }
+    margin-bottom: 2rem;
+}
+
 }
