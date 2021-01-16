@@ -1,0 +1,22 @@
+.about{
+    // min-height: 100vh;
+    display: flex;
+    @include flex (center, center, row);
+    flex-wrap: wrap;
+}
+.about-img{
+    flex: 1 1 40rem;
+    text-align: center;
+    img{
+        width: 25%;
+    }
+}
+.about-text{
+    flex: 1 1 40rem;
+    padding-right: 5rem;
+    // text-align: center;
+    p{
+        // padding: 5rem 25rem 0 0;
+        line-height: 5rem;
+    }
+}

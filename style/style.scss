@@ -1,0 +1,21 @@
+$header1: 5rem;
+$header2: 6rem;
+$header3: 4rem;
+$header4: 3rem;
+$text: 2rem;
+$background-color: #161623;
+$white-text: #ffffff;
+
+
+@mixin flex($justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+  }
+
+@import "global";
+@import "hero";
+@import "about";
+@import "services";
+@import "responsive"
