@@ -4,34 +4,33 @@
     text-align: center;
   }
 }
-.project-grid{
-    width: 95%;
-    margin: auto;
-    padding: 2rem;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
+.project-grid {
+  width: 95%;
+  margin: auto;
+  padding: 2rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.gallery-image{
-  transition: all ease-in-out .4s;
+.gallery-image {
+  transition: all ease-in-out 0.4s;
   position: relative;
-  img{
+  img {
     width: 100%;
     object-fit: cover;
   }
 }
 
-.gallery-image{
-    &:hover{
-      outline: 1.2rem solid white;
-      outline-offset: 2.2rem;
-      transform: scale(0.8);
-    }
-  
+.gallery-image {
+  &:hover {
+    outline: 1.2rem solid white;
+    outline-offset: 2.2rem;
+    transform: scale(0.8);
+  }
 }
 
-.text{
+.text {
   color: $white-text;
   text-align: center;
   padding: 1rem;
@@ -40,12 +39,12 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  p{
+  p {
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  a{
-    background:$white-text;
+  a {
+    background: $white-text;
     padding: 0.5rem 2rem;
     border-radius: 1.5rem;
     color: $background-color;
@@ -53,7 +52,7 @@
   }
 }
 
-.overlay{
+.overlay {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -62,9 +61,8 @@
   transition: all ease-in 0.5s;
   background: rgba(22, 22, 35, 0.8);
   opacity: 0;
-
 }
 
-.gallery-image:hover .overlay{
+.gallery-image:hover .overlay {
   opacity: 1;
 }
