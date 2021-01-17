@@ -19,6 +19,9 @@
   justify-content: space-around;
   flex: 3 1 40rem;
 }
+.burger{
+  display: none;
+}
 
 .hero {
   padding: 2rem;
@@ -41,6 +44,7 @@
     width: 100%;
   }
 }
+
 
 #hero-heading,
 #path-1-outside-1 {
