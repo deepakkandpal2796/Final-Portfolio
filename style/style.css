@@ -91,7 +91,7 @@ textarea::placeholder, input::placeholder {
 .arrow-up {
   position: fixed;
   right: 2rem;
-  top: 87vh;
+  top: 85vh;
   background: linear-gradient(180deg, #E383F9 0%, #81D4FA 100%);
   padding: 1rem;
   border-radius: 10rem;
@@ -921,6 +921,10 @@ ul li a img {
   }
   .hero .hero-image {
     text-align: center;
+  }
+  .arrow-up {
+    right: 2rem;
+    top: 70vh;
   }
   .about-text {
     text-align: center;
