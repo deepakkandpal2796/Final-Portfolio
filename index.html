@@ -32,13 +32,14 @@
       <li class="green"></li>
       <li class="yellow"></li>
     </ul>
-    <header class="main-head">
+    <a href="#start" class="arrow-up"><img src="./icons/arrow.png" alt=""></a>
+    <header class="main-head" id="start">
       <nav>
         <h1 id="logo">Dr. Dev</h1>
         <ul class="nav-links">
           <l1><a href="#home" class="button">HOME</a></l1>
           <l1><a href="#about" class="button">ABOUT</a></l1>
-          <l1><a href="#gallery" class="button">PROJECT</a></l1>
+          <l1><a href="#project" class="button">PROJECT</a></l1>
           <l1><a href="#contact" class="button">CONTACT</a></l1>
         </ul>
         <div class="burger">
@@ -256,13 +257,13 @@
         </svg>
 
         <h4>Get ready to turn your idea into reality.</h4>
-        <a href="#" class="button-main">Explore</a>
+        <a href="#project" class="button-main">Explore</a>
       </div>
       <div class="hero-image">
         <img src="./Image/hero-img.png" alt="" />
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-img">
         <img src="./Image/about-img.png" alt="" />
       </div>
@@ -278,7 +279,7 @@
         <p></p>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <h3>SERVICES</h3>
       <div class="container">
         <div class="card">
@@ -322,7 +323,7 @@
         </div>
       </div>
     </section>
-    <section class="project">
+    <section class="project" id="project">
       <h3>PROJECT</h3>
       <div class="project-grid">
         <div class="gallery-image">
@@ -500,13 +501,19 @@
         </div>
       </div>
     </section>
-   <section class="contact">
-    <h3>GET IN TOUCH</h3>
-     <div class="cont-wrapper">
+    <section class="contact" id="contact">
+      <h3>GET IN TOUCH</h3>
+      <div class="cont-wrapper">
         <form action="" class="contact-left">
           <div class="name-form form-style">
             <!-- <label for="name"></label> -->
-            <input type="text" name="name" id="name" placeholder="Name" required />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
           </div>
           <div class="form-email form-style">
             <!-- <label></label> -->
@@ -514,34 +521,82 @@
           </div>
           <div class="form-message form-style">
             <!-- <label></label> -->
-            <textarea name="" id="" cols="20" rows="10" placeholder="Message"></textarea>
+            <textarea
+              name=""
+              id=""
+              cols="20"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
           </div>
           <a href="#" class="button">Submit</a>
         </form>
         <div class="contact-right">
           <h5>Contact-info</h5>
           <ul class="info-list">
-            <li class="flex"><img src="./icons/phone-call.svg" alt="" class="contact-icon"><span>+91-7428868685</span></li>
-            <li class="flex"><img src="./icons/envelope.svg" alt="" class="contact-icon"><span>drdev@gmail.com</span></li>
+            <li class="flex">
+              <img
+                src="./icons/phone-call.svg"
+                alt=""
+                class="contact-icon"
+              /><span>+91-7428868685</span>
+            </li>
+            <li class="flex">
+              <img
+                src="./icons/envelope.svg"
+                alt=""
+                class="contact-icon"
+              /><span>drdev@gmail.com</span>
+            </li>
           </ul>
         </div>
       </div>
+    </section>
 
-   </section>
-
-   <footer>
-     <h4>Dr. Dev</h4>
-     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus mollitia voluptatibus explicabo perspiciatis enim distinctio, id consequatur. Veritatis, incidunt!</p>
-     <ul class="social-links">
-       <li><a href=""><img src="./icons/facebook.png" alt=""></a></li>
-       <li><a href=""><img src="./icons/instagram.png" alt=""></a></li>
-       <li><a href=""><img src="./icons/linkedin.png" alt=""></a></li>
-       <li><a href=""><img src="./icons/reddit.png" alt=""></a></li>
-       <li><a href=""><img src="./icons/twitter.png" alt=""></a></li>
-       <li class="whatsapp"><a href=""><img src="./icons/whatsapp.png" alt=""></a></li>
-     </ul>
-     <p>Copyright &copy; 2020 Dr. Dev. <span class="light-text">Designed & Developed by Dr. Dev</span></p>
-   </footer>
+    <footer>
+      <h4>Dr. Dev</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+        necessitatibus mollitia voluptatibus explicabo perspiciatis enim
+        distinctio, id consequatur. Veritatis, incidunt!
+      </p>
+      <ul class="social-links">
+        <li>
+          <a
+            href="https://www.facebook.com/deepak.kandpal.104855/"
+            target="_blank"
+            ><img src="./icons/facebook.png" alt=""
+          /></a>
+        </li>
+        <!-- <li>
+          <a href=""><img src="./icons/instagram.png" alt="" /></a>
+        </li> -->
+        <li>
+          <a href="https://www.linkedin.com/company/docter-dev" target="_blank"
+            ><img src="./icons/linkedin.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://dribbble.com/Dr-Dev" target="_blank"
+            ><img src="./icons/reddit.png" alt=""
+          /></a>
+        </li>
+        <!-- <li>
+          <a href=""><img src="./icons/twitter.png" alt="" /></a>
+        </li> -->
+        <li class="whatsapp">
+          <a
+            href="https://api.whatsapp.com/send?phone=+917428868685&text=Hi%20Dr. Dev,%20i%20have%20a%20project%20in%20my%20mind.."
+            target="_blank"
+            ><img src="./icons/whatsapp.png" alt=""
+          /></a>
+        </li>
+      </ul>
+      <p>
+        Copyright &copy; 2020 Dr. Dev.
+        <span class="light-text">Designed & Developed by Dr. Dev</span>
+      </p>
+    </footer>
 
     <!-- <script src="./script/svg.js"></script> -->
     <script src="./script/script.js"></script>
