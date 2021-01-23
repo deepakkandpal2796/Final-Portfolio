@@ -1063,6 +1063,9 @@ ul li a img {
     margin-top: 2rem;
     padding: 2rem 0rem;
   }
+  .email-text {
+    font-size: 1.5rem;
+  }
   footer h4 {
     font-family: "Flavors", cursive;
     font-size: 4rem;
