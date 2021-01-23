@@ -183,6 +183,18 @@
 .project-grid{
   grid-template-columns: repeat(2, 1fr);
 }
+
+//contact
+
+.cont-wrapper {
+  width: 85%;
+}
+
+.contact-right{
+  margin-top: 2rem;
+  padding: 2rem 0rem;
+}
+
 }
 
 @media screen and (max-width: 500px) {
@@ -190,3 +202,5 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+

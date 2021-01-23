@@ -75,6 +75,18 @@ a {
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.5), inset -5px -5px 10px rgba(255, 255, 255, 0.05);
 }
 
+textarea:focus, input:focus {
+  outline: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+textarea::placeholder, input::placeholder {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
 .circle {
   position: fixed;
   top: 0;
@@ -772,6 +784,71 @@ a {
   }
 }
 
+.contact h3 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.cont-wrapper {
+  width: 80%;
+  margin: auto;
+  padding: 4rem;
+  background: #161623;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25), -2px -2px 4px rgba(102, 99, 99, 0.25);
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  flex: 1 1 40rem;
+}
+
+.contact-left a {
+  margin: 6rem 0rem;
+}
+
+.contact-right {
+  flex: 1 1 40rem;
+  padding: 2rem 2rem;
+}
+
+.info-list {
+  margin: 2rem 0rem;
+}
+
+.info-list .contact-icon {
+  width: 3rem;
+  margin: 2rem 1rem 2rem 0rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.form-style {
+  margin: 2rem 0rem;
+}
+
+.form-style input {
+  background: #161623;
+  width: 100%;
+  border: none;
+  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.25), inset -2px -2px 4px rgba(102, 99, 99, 0.25);
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+}
+
+.form-style textarea {
+  background: #161623;
+  width: 100%;
+  border: none;
+  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.25), inset -2px -2px 4px rgba(102, 99, 99, 0.25);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
 @media screen and (max-width: 902px) {
   h3 {
     font-size: 3.5rem;
@@ -924,6 +1001,13 @@ a {
   }
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .cont-wrapper {
+    width: 85%;
+  }
+  .contact-right {
+    margin-top: 2rem;
+    padding: 2rem 0rem;
   }
 }
 
