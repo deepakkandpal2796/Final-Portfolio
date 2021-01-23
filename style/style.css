@@ -90,8 +90,8 @@ textarea::placeholder, input::placeholder {
 
 .arrow-up {
   position: fixed;
-  right: 3rem;
-  top: 90vh;
+  right: 2rem;
+  top: 87vh;
   background: linear-gradient(180deg, #E383F9 0%, #81D4FA 100%);
   padding: 1rem;
   border-radius: 10rem;
