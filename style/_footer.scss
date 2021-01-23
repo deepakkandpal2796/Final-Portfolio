@@ -1,0 +1,46 @@
+footer {
+  min-height: 40vh;
+  margin: 6rem 0rem 0rem 0rem;
+  padding: 2rem;
+  background: #f0eeee;
+  color: $background-color;
+  text-align: center;
+}
+footer {
+  h4 {
+    font-family: "Flavors", cursive;
+    font-size: 5rem;
+  }
+  p {
+    padding: 2rem 6rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+  }
+}
+ 
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li{
+        width: 3rem;
+        margin: 2rem;
+    }
+    .whatsapp{
+        width: 3.5rem;
+    }
+}
+
+ul{
+    li{
+        a{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.light-text{
+    color: rgb(78, 78, 78);
+}

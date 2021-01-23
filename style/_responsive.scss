@@ -194,7 +194,25 @@
   margin-top: 2rem;
   padding: 2rem 0rem;
 }
+// footer
+footer {
+  h4 {
+    font-family: "Flavors", cursive;
+    font-size: 4rem;
+  }
+  p {
+    padding: 2rem 6rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+  }
+}
+.social-links{
+  li{
+      width: 3rem;
+      margin: 1rem;
+  }
 
+}
 }
 
 @media screen and (max-width: 500px) {

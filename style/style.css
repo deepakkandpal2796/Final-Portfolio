@@ -849,6 +849,49 @@ textarea::placeholder, input::placeholder {
   border-radius: 2rem;
 }
 
+footer {
+  min-height: 40vh;
+  margin: 6rem 0rem 0rem 0rem;
+  padding: 2rem;
+  background: #f0eeee;
+  color: #161623;
+  text-align: center;
+}
+
+footer h4 {
+  font-family: "Flavors", cursive;
+  font-size: 5rem;
+}
+
+footer p {
+  padding: 2rem 6rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links li {
+  width: 3rem;
+  margin: 2rem;
+}
+
+.social-links .whatsapp {
+  width: 3.5rem;
+}
+
+ul li a img {
+  width: 100%;
+}
+
+.light-text {
+  color: #4e4e4e;
+}
+
 @media screen and (max-width: 902px) {
   h3 {
     font-size: 3.5rem;
@@ -1008,6 +1051,19 @@ textarea::placeholder, input::placeholder {
   .contact-right {
     margin-top: 2rem;
     padding: 2rem 0rem;
+  }
+  footer h4 {
+    font-family: "Flavors", cursive;
+    font-size: 4rem;
+  }
+  footer p {
+    padding: 2rem 6rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+  }
+  .social-links li {
+    width: 3rem;
+    margin: 1rem;
   }
 }
 
