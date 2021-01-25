@@ -997,8 +997,8 @@ ul li a img {
   }
   .circle li:nth-child(6) {
     left: 75%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     animation-delay: 3s;
     animation-duration: 12s;
   }
@@ -1064,6 +1064,13 @@ ul li a img {
   }
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .text p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  .text a {
+    font-size: 1.6rem;
   }
   .cont-wrapper {
     width: 85%;
