@@ -92,16 +92,17 @@ textarea, input{
     font-family: sans-serif;
   }
 }
-
+textarea, input{
+    color: #757575;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
 //arrow
 
 .arrow-up{
   position: fixed;
-  right: 2rem;
+  right: 1.5rem;
   top: 85vh;
-  background: linear-gradient(180deg, #E383F9 0%, #81D4FA 100%);
-  padding: 1rem;
-  border-radius: 10rem;
   z-index: 4;
 }
 

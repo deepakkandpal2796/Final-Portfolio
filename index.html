@@ -349,10 +349,10 @@
           <div class="overlay">
             <div class="text">
               <p>
-                This is a landing page we made for clinte which is a interior
-                design company they have a demand to show case one of their work
-                on the landing page, and a watch video button to watch their
-                project videos.
+                This is a landing page we made for a clinte who is an interior
+                designer he had a demand to show case one of his project on the
+                landing page, and a watch video button to watch his project
+                videos.
               </p>
               <a
                 href="https://dribbble.com/shots/14990983-Interior-design-website?utm_source=Clipboard_Shot&utm_campaign=Dr-Dev&utm_content=Interior%20design%20website&utm_medium=Social_Share"
@@ -367,10 +367,10 @@
           <div class="overlay">
             <div class="text">
               <p>
-                This is a low budget design & website we made for a
-                photographer. Clinet just started her career and want a basic
-                low budget website that showcase her portfolio. She want modern
-                wesite with a photograph gallery.
+                We designed and developed this low budget website for a
+                photographer. She just started her career and want a basic
+                website to showcase her portfolio. She want modern wesite look
+                with a photo gallery.
               </p>
               <a
                 href="https://deepakkandpal2796.github.io/elena-joy/"
@@ -385,9 +385,9 @@
           <div class="overlay">
             <div class="text">
               <p>
-                This is a landing page design we made for our clinte who is
-                making a meditation website, they want the landing page having a
-                soothing and calming feel but not so vibrent colour.
+                This is a design of a landing page that we made for our clinte
+                who is making a meditation website, they want a soothing and
+                calming feel.
               </p>
               <a
                 href="https://dribbble.com/shots/14997800-Meditation-Website?utm_source=Clipboard_Shot&utm_campaign=Dr-Dev&utm_content=Meditation%20Website&utm_medium=Social_Share"
@@ -402,10 +402,9 @@
           <div class="overlay">
             <div class="text">
               <p>
-                This is a landing page design & website we made for front-end
-                developer portfolio. This is just a template we made for fun. We
-                use svg and cool illustration in this and using animation we had
-                made this futuristic.
+                We designed and developed this landing page just for fun. We
+                made this for front-end developer portfolio. We used svg, cool
+                illustration and animation which act as icing on the cake.
               </p>
               <a
                 href="https://deepakkandpal2796.github.io/Portfolio/"
@@ -420,9 +419,9 @@
           <div class="overlay">
             <div class="text">
               <p>
-                This is the design of the landing page of a cafe website they
-                want us to make modern and cool design and they have a specific
-                colour theme to work on which is simillar to the colour theme of
+                This is the design of the landing page of a cafe website. They
+                wants us to make modern and cool design and they have a specific
+                colour theme in mind. Which is simillar to the colour theme of
                 their cafe.
               </p>
               <a
@@ -528,7 +527,13 @@
     <section class="contact" id="contact">
       <h3>GET IN TOUCH</h3>
       <div class="cont-wrapper">
-        <form action="" class="contact-left">
+        <form
+          action=""
+          class="contact-left"
+          method="post"
+          autocomplete="off"
+          name="google-sheet"
+        >
           <div class="name-form form-style">
             <!-- <label for="name"></label> -->
             <input
@@ -541,19 +546,21 @@
           </div>
           <div class="form-email form-style">
             <!-- <label></label> -->
-            <input type="email" name="_replyto" placeholder="Email" required />
+            <input type="email" name="email" placeholder="Email" required />
           </div>
           <div class="form-message form-style">
             <!-- <label></label> -->
             <textarea
-              name=""
+              name="message"
               id=""
               cols="20"
               rows="10"
               placeholder="Message"
             ></textarea>
           </div>
-          <a href="#" class="button">Submit</a>
+          <button class="button-submit" type="submit" name="submit" onclick="submitForm()">
+            Submit
+          </button>
         </form>
         <div class="contact-right">
           <h5>Contact-info</h5>
@@ -622,6 +629,9 @@
     </footer>
 
     <!-- <script src="./script/svg.js"></script> -->
+    <script src="./script/contact.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./script/script.js"></script>
     <script src="./script/testimonial.js"></script>
   </body>

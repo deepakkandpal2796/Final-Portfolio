@@ -11,13 +11,13 @@
   background: $background-color;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25),
     -2px -2px 4px rgba(102, 99, 99, 0.25);
-    border-radius: 2rem;
+  border-radius: 2rem;
   display: flex;
   flex-wrap: wrap;
 }
 .contact-left {
   flex: 1 1 40rem;
-  a{
+  a {
     margin: 6rem 0rem;
   }
 }
@@ -25,33 +25,31 @@
   flex: 1 1 40rem;
   padding: 2rem 2rem;
 }
-.info-list{
+.info-list {
   margin: 2rem 0rem;
-  .contact-icon{
+  .contact-icon {
     width: 3rem;
     margin: 2rem 1rem 2rem 0rem;
   }
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
   // justify-content: center;
 }
 
-
-
 .form-style {
-    margin: 2rem 0rem;
+  margin: 2rem 0rem;
   input {
     background: $background-color;
     width: 100%;
     border: none;
     box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.25),
       inset -2px -2px 4px rgba(102, 99, 99, 0.25);
-      padding: 1.5rem 2rem;
-      border-radius: 2rem;
-      
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+    
   }
   textarea {
     background: $background-color;
@@ -59,7 +57,22 @@
     border: none;
     box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.25),
       inset -2px -2px 4px rgba(102, 99, 99, 0.25);
-      padding: 1rem 2rem;
-      border-radius: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+  }
+}
+
+.button-submit {
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 1rem 2.5rem;
+  background: #161623;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5),
+    -5px -5px 10px rgba(255, 255, 255, 0.05);
+  border-radius: 22px;
+  &:active {
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.5),
+      inset -5px -5px 10px rgba(255, 255, 255, 0.05);
   }
 }

@@ -22,7 +22,7 @@
     }
   }
   .arrow-up {
-    right: 2rem;
+    right: 1rem;
     top: 80vh;
   }
 
@@ -188,11 +188,26 @@
   .text {
     p {
       margin-bottom: 2rem;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
+    font-family: sans-serif;
     }
     a {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
+  }
+  //testimonials
+  .testim .cont div h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 400;
+  }
+  
+  .testim .cont div p {
+    font-size: 1.8rem;
+    color: #eee;
+    width: 80%;
+    margin: auto;
   }
   //contact
 
