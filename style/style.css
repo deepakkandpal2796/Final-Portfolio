@@ -519,13 +519,42 @@ textarea, input {
   margin: 4rem 0;
 }
 
+.btn-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.button {
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+  padding: 1rem 2.5rem;
+  background: #161623;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(255, 255, 255, 0.05);
+  border-radius: 22px;
+  cursor: pointer;
+  outline: none;
+  margin: 0rem 0.1rem;
+}
+
+.button.active {
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.5), inset -5px -5px 10px rgba(255, 255, 255, 0.05);
+  color: #414141;
+  transition: all 0.1s ease-in-out;
+}
+
 .project-grid {
   width: 95%;
   margin: auto;
   padding: 2rem;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .gallery-image {
@@ -1091,6 +1120,9 @@ ul li a img {
   .text a {
     font-size: 1.4rem;
   }
+  .button {
+    margin: 1rem;
+  }
   .testim .cont div h2 {
     color: white;
     font-size: 2.5rem;
@@ -1131,6 +1163,14 @@ ul li a img {
 @media screen and (max-width: 500px) {
   .project-grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .btn-container {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+  }
+  .button {
+    margin: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
