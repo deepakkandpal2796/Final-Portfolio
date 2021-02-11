@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -60,6 +61,7 @@ a {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5),
     -5px -5px 10px rgba(255, 255, 255, 0.05);
   border-radius: 22px;
+  // transition: all 0.5s ease;
   &:active {
     box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.5),
       inset -5px -5px 10px rgba(255, 255, 255, 0.05);
@@ -72,34 +74,38 @@ a {
     -5px -5px 10px rgba(255, 255, 255, 0.05);
   border-radius: 22px;
   font-size: 2.5rem;
+  // transition: all 0.5s ease;
   &:active {
     box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.5),
       inset -5px -5px 10px rgba(255, 255, 255, 0.05);
   }
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline: none;
   color: white;
   font-family: sans-serif;
   font-size: 2rem;
 }
 
-textarea, input{
-  &::placeholder{
+textarea,
+input {
+  &::placeholder {
     // color: white;
     font-size: 2rem;
     font-family: sans-serif;
   }
 }
-textarea, input{
-    color: #757575;
+textarea,
+input {
+  color: #757575;
   font-family: sans-serif;
   font-size: 2rem;
 }
 //arrow
 
-.arrow-up{
+.arrow-up {
   position: fixed;
   right: 1.5rem;
   top: 85vh;
@@ -224,4 +230,3 @@ textarea, input{
     transform: translateY(-1000px) rotate(720deg);
   }
 }
-
