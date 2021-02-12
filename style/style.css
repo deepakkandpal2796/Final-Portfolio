@@ -580,7 +580,7 @@ input {
 .text {
   color: #ffffff;
   text-align: center;
-  padding: 1rem;
+  padding: .3rem;
   width: 90%;
   margin: auto;
   position: relative;
@@ -1123,7 +1123,7 @@ ul li a img {
     grid-template-columns: repeat(2, 1fr);
   }
   .text .project-heading {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .text p {
     margin-bottom: 2rem;
