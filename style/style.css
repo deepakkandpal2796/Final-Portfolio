@@ -604,6 +604,7 @@ input {
 .project-heading {
   font-weight: 700;
   border-bottom: 2px solid #fff;
+  font-size: 3rem;
 }
 
 .overlay {
@@ -1121,9 +1122,12 @@ ul li a img {
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .text .project-heading {
+    font-size: 2.2rem;
+  }
   .text p {
     margin-bottom: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-family: sans-serif;
   }
   .text a {

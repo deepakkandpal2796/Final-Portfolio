@@ -186,10 +186,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .text {
+    .project-heading {
+      font-size: 2.2rem;
+      // margin-bottom: 2rem;
+    }
     p {
       margin-bottom: 2rem;
-      font-size: 1.4rem;
-    font-family: sans-serif;
+      font-size: 1.8rem;
+      font-family: sans-serif;
     }
     a {
       font-size: 1.4rem;
@@ -211,7 +215,7 @@
     margin: 1.5rem 0;
     font-weight: 400;
   }
-  
+
   .testim .cont div p {
     font-size: 1.8rem;
     color: #eee;
